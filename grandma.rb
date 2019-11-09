@@ -14,7 +14,7 @@ require 'pry'
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(phrase = "Hi Grandma!")
-  grandma = "HUH?! SPEAK UP, SONNY"
+  grandma = "HUH?! SPEAK UP, SONNY!"
   if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif phrase.upcase == phrase
