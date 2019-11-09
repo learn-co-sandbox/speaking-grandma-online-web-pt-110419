@@ -16,11 +16,11 @@ require 'pry'
 def speak_to_grandma(phrase = "Hi Grandma!")
   grandma = "HUH?! SPEAK UP, SONNY"
   if phrase == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   elsif phrase.upcase == phrase
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
     else 
-    puts "#{grandma}"
+    return "#{grandma}"
     
 end
 end
